@@ -7,8 +7,8 @@
     background:
       linear-gradient(
         to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
+        rgba($primary-color, 0.5),
+        rgba($primary-color, 0.1)
       ),
       url('../img/llama-snow-mountains-flip.jpg') center top;
     background-size: cover;
@@ -29,6 +29,11 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+
+    p {
+      padding-bottom: .5rem;
+      text-align: center;
+    }
   }
 
   &_item {

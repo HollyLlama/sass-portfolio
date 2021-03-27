@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/llama-snow-mountains-flip.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.1))), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.1)), url("../img/llama-snow-mountains-flip.jpg") center top;
   background-size: cover;
 }
 
@@ -192,8 +192,8 @@
 .about_bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/llama-snow-mountains-flip.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.1))), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.1)), url("../img/llama-snow-mountains-flip.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,6 +212,7 @@
 
 .about_bio-image p {
   margin-bottom: 2rem;
+  line-height: normal;
 }
 
 .about_bio {
@@ -237,6 +238,7 @@
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #b3d4fc;
+  line-height: normal;
 }
 
 .about .jobs_job h2, .about .jobs_job h3 {
@@ -269,8 +271,8 @@
 .projects_bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/llama-snow-mountains-flip.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.1))), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.1)), url("../img/llama-snow-mountains-flip.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,6 +302,11 @@
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
+}
+
+.projects_items p {
+  padding-bottom: .5rem;
+  text-align: center;
 }
 
 .projects_item {
@@ -391,8 +398,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/llama-snow-mountains-flip.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.1))), url("../img/llama-snow-mountains-flip.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.1)), url("../img/llama-snow-mountains-flip.jpg") center top;
   background-size: cover;
 }
 
