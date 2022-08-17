@@ -229,6 +229,7 @@
   padding-bottom: 1rem;
 }
 
+
 .about .jobs {
   width: 60vw;
   margin: 2rem auto 0 auto;
@@ -244,6 +245,9 @@
   padding: 0.5rem;
   border-bottom: 5px solid #b3d4fc;
   line-height: normal;
+}
+li {
+  list-style: none;
 }
 
 .about .jobs_job h2, .about .jobs_job h3 {
